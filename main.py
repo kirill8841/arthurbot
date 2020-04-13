@@ -121,7 +121,7 @@ def main():
 
     # Initialising an Updater using out bot's authorisation token
     updater = Updater(
-        "957035218:AAHfWFPNd38-qE3v81dLg_xOTwEr6llcgGs", use_context=True)
+        "TOKEN", use_context=True)
     dp = updater.dispatcher
 
     # The entry_points argument is a list of handlers that will be launched
